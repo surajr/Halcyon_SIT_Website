@@ -1,0 +1,394 @@
+
+/* dock - top */
+.dock {
+	position:relative; 
+	height: 50px; 
+	text-align: center;
+}
+.dock-container {
+	position:absolute;
+	height: 50px;
+	background: url(images/dock-bg2.gif);
+	padding-left: 20px;
+}
+a.dock-item {
+	display: block;
+	width: 40px;
+	color: #000;
+	position: absolute;
+	top: 0px;
+	text-align: center;
+	text-decoration: none;
+	font: bold 12px Arial, Helvetica, sans-serif;
+}
+.dock-item img {
+	border: none; 
+	margin: 5px 10px 0px; 
+	width: 100%; 
+}
+.dock-item span {
+	display: none; 
+	padding-left: 20px;
+}
+
+/* dock2 - bottom */
+#dock2 {
+	width: 100%;
+	bottom: 0px;
+	position: absolute;
+	left: 0px;
+}
+.dock-container2 {
+	position:absolute;
+	height: 50px;
+	background: url(images/dock-bg.gif);
+	padding-left: 20px;
+}
+a.dock-item2 {
+	display: block; 
+	font: bold 12px Arial, Helvetica, sans-serif;
+	width: 40px; 
+	color: #000; 
+	bottom: 0px; 
+	position: absolute;
+	text-align: center;
+	text-decoration: none;
+}
+.dock-item2 span {
+	display: none;
+	padding-left: 20px;
+}
+.dock-item2 img {
+	border: none; 
+	margin: 5px 10px 0px; 
+	width: 100%; 
+}
+
+/* dock ended----------------------------------------------------------------------------------------------------------------------------- */
+/* cumulus------------------ */
+#quicklink{
+	position:absolute;
+	top:5%;
+	left:80%;
+	width:20%;
+	height:20%;
+	z-index:0;
+}
+/* cumulus ended----------------------------------------------------------------------------------------------------------------------------- */
+/* description region----------------------------------------------------------------------------------------------------------------------------- */
+#transbox
+  {
+  width:100%;
+  height:100%;
+  overflow:auto;
+  }
+#container_rt{
+	width:100%;
+	background-image:url('images/cont_up1.png');
+	background-position:right top;
+	background-repeat:repeat-y;
+}
+#container
+{
+	margin-left:18%;
+	width:64%;
+}
+#container_top{
+	width:100%;
+	background-image:url('images/cont_top1.png');
+	background-position:top;
+	background-repeat:repeat-x;
+}
+#container_bm{
+	width:100%;
+	background-image:url('images/cont_bm1.png');
+	background-position:bottom;
+	background-repeat:repeat-x;
+}
+#container_lt{
+	width:100%;
+	background-image:url('images/cont_lt1.png');
+	background-position:left top;
+	background-repeat:repeat-y;
+}
+#boundary12
+{
+	margin-left:4.5%;
+	margin-right:4.5%;
+	background-repeat:repeat;
+	clear:both;
+}
+#curl{
+	position:relative;
+	width:37.25%;
+	height:100%;
+	overflow:visible;
+
+}
+#topimage{
+	position:absolute;
+
+	width:164%;
+	height:100%;
+	top:25%;
+	left:100%;
+	font-family:'century gothic','arial';
+	font-size:large;
+	font-weight:bold;
+	font-style:italic;
+	float:left;
+	text-align: right;
+}
+a.topheading{
+	color:#f75200;
+	text-decoration:none;
+}
+a.subheading5{
+	color:#a5763b;
+	text-decoration:none;
+}
+.containerimage
+{
+float:right;
+
+width: 40%;
+
+}
+#content{
+	margin-left:5%;
+	margin-right:5%;
+	font-size:medium;
+	line-height: 190%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-style:oblique;
+}
+#qoutes{
+	text-align:center;
+	margin-left:3%;
+	margin-right:3%;
+	font-size:medium;
+	line-height: 130%;
+	font-weight:bold;
+	text-decoration:blink;
+	font-style:italic;
+	color:#CCCCCC;
+}
+.heading1{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:small;
+	font-style:normal;
+}
+
+
+#imagefix{
+    	
+		background-repeat:no-repeat;
+		
+
+        width:100%;
+		height:100%;
+	position:fixed;
+	
+	right:0;
+	top:0;
+	z-index:-5000;
+       
+
+}
+
+ul{
+	color:white;
+	}
+ul.li{
+	color:#FFFFFF;
+	}
+	
+	/*----------------------------------------------------------------------------------------------------------------------------- */
+.photoframe
+{
+	width: 95%;
+	clear:both;
+}
+.left{
+	float:left;
+	margin-left:10%;
+	margin-right:5%;
+	width:35%;
+	text-align:left;
+	margin-bottom:3%;
+	
+
+}
+.spacer{
+margin-bottom:15%;
+}
+.right{
+	float:right;
+	margin-left:5%;
+	margin-right:10%;
+	width:35%;
+	text-align:right;
+	margin-bottom:3%;
+	
+
+}
+
+a.links{
+
+color:silver;
+text-decoration:none;
+}
+a.links:hover{
+
+color:#f75200;
+text-decoration:none;
+}
+.clear{
+	clear:both;
+}
+
+.text1{
+	font-size:large;
+	font-style:italic;
+	color:#FF9999;
+}
+
+
+.caption{
+	font-size:small;
+	font-style:italic;
+	text-align:left;
+	margin-right:15%;
+	width:100%;
+	color:#FFCC00;
+
+}
+.caption1{
+	font-size:small;
+	font-style:italic;
+	text-align:left;
+	margin-left:15%;
+	width:100%;
+	color:#FF6600;
+
+}
+
+#name1{
+	float:left;
+	width:40%;
+	margin-right:5%;
+	margin-bottom:5%;
+	margin-left:5%;
+	line-height:22px;
+	font-size:13px;
+	}
+#name2{
+	float:left;
+	width:40%;
+	margin-right:5%;
+	margin-bottom:5%;
+	margin-left:5%;
+	line-height:22px;
+	font-size:13px;
+
+}
+#name3{
+	float:left;
+	width:40%;
+	margin-right:5%;
+	margin-bottom:5%;
+	margin-left:5%;
+	line-height:22px;
+	font-size:13px;
+
+}
+
+#subtit{
+	float:inherit;
+	font-size:15px;
+	font-style:italic;
+	font-weight:bold;
+	margin-bottom:5%;
+	margin-left:2%;
+	color:gray;
+}
+#subtit1{
+	float:inherit;
+	font-size:15px;
+	font-style:italic;
+	font-weight:bold;
+	margin-bottom:5%;
+	margin-left:2%;
+	color:#af640c;
+	text-align:center;
+}
+
+#name4{
+	float:left;
+	width:40%;
+	margin-right:5%;
+	margin-bottom:5%;
+	margin-left:5%;
+	line-height:22px;
+	font-size:13px;
+
+}
+#name5{
+	float:left;
+	width:40%;
+	margin-right:5%;
+	margin-bottom:5%;
+	margin-left:5%;
+	line-height:22px;
+	font-size:13px;
+
+}
+#name6{
+	float:left;
+	width:40%;
+	margin-right:5%;
+	margin-bottom:5%;
+	margin-left:5%;
+	line-height:22px;
+	font-size:13px;
+
+}
+
+#name7{
+	float:left;
+	width:40%;
+	margin-right:5%;
+	margin-bottom:5%;
+	margin-left:5%;
+	line-height:22px;
+	font-size:13px;
+
+}
+
+.day
+{
+	font-size:large;
+	font-weight:bold;
+}
+.table1
+{
+	width:100%;
+	border:thick silver solid;
+	font-size:small;
+	line-height:150%;
+}
+.rows{
+	border-left:thin silver solid;
+}
+
+.rows2{
+	border-bottom:thin silver solid;
+	font-weight:bold;
+}
+
+.rows1{
+	border-left:thin silver solid;
+	border-bottom:thin silver solid;
+	font-weight:bold;
+
+}

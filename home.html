@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>HOME PAGE</title>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/interface.js"></script>
+
+<!--[if lt IE 7]>
+ <style type="text/css">
+ .dock img { behavior: url(iepngfix.htc) }
+ </style>
+<![endif]-->
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<style type="text/css">
+.bg
+{
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:-5000;
+}
+</style>
+<body>
+<!--bottom dock -->
+<div class="dock" id="dock2">
+  <div class="dock-container2">
+  <a class="dock-item2" href="home.html"><span style="color:#FFFFFF">Home</span><img src="images/dhome.png" alt="home" /></a> 
+  <a class="dock-item2" href="aboutus.html"><span style="color:#FFFFFF">About Us</span><img src="images/daboutus.png" alt="aboutus" /></a> 
+  <a class="dock-item2" href="http://docs.google.com/spreadsheet/viewform?formkey=dHY5VkRuRjFCd1pyWGRiTi1hN2xNVnc6MQ"><span style="color:#FFFFFF">Registration</span><img src="images/dreg.png" alt="contact" /></a> 
+  <a class="dock-item2" href="events.html"><span style="color:#FFFFFF">Events</span><img src="images/devents.png" alt="portfolio" /></a> 
+  <a class="dock-item2" href="schedule.html"><span style="color:#FFFFFF">Schedule</span><img src="images/dschedule.png" alt="music" /></a> 
+  <a class="dock-item2" href="gallery.html"><span style="color:#FFFFFF">Gallery</span><img src="images/dgallery.png" alt="video" /></a> 
+  <a class="dock-item2" href="contact.html"><span style="color:#FFFFFF">Contact Us</span><img src="images/dcontact.png" alt="history" /></a>
+  <a class="dock-item2" href="location.html"><span style="color:#FFFFFF">Location</span><img src="images/dlocation.png" alt="Location" /></a>  
+  <a class="dock-item2" href="webmasters.html"><span style="color:#FFFFFF" >Webmasters</span><img src="images/dwebmaster.png" alt="calendar" /></a> 
+    </div>
+</div>
+
+<!--dock menu JS options -->
+<script type="text/javascript">
+	
+	$(document).ready(
+		function()
+		{
+			$('#dock2').Fisheye(
+				{
+					maxWidth: 80,
+					items: 'a',
+					itemsText: 'span',
+					container: '.dock-container2',
+					itemWidth: 70,
+					proximity: 120,
+					alignment : 'left',
+					valign: 'bottom',
+					halign : 'center'
+				}
+			)
+		}
+	);
+
+</script>
+<div align="center"><img src="images/home.jpg" class="bg"></div>
+</body>
+</html>

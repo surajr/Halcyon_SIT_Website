@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<slide_show>
+	<options>
+		<background>transparent</background>		<!-- #RRGGBB, transparent -->
+	</options>
+	<photo href="home.html">./images/ahome.png</photo>
+		<photo href="events.html">./images/aevents.png</photo>
+	<photo href="schedule.html">./images/aschedule.png</photo>
+	<photo href="gallery.html">./images/agallery.png</photo>
+	<photo href="contact.html">./images/acontact.png</photo>
+	<photo href="location.html">./images/alocation.png</photo>
+	<photo href="webmasters.html">./images/awebmaster.png</photo>
+	</slide_show>

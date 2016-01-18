@@ -1,0 +1,50 @@
+﻿<images>
+	<photo image="images/101.jpg" colorboxImage="images/101.jpg" colorboxInfo="Item 01" colorboxClass="image" url = "http://www.flashxml.net" target="_blank">
+	<![CDATA[<head></head><body></body>]]></photo>
+	
+	<photo image="images/102.jpg" colorboxImage="images/102.jpg" colorboxInfo="Item 02" colorboxClass="image" url = "http://www.flashxml.net" target="_blank">
+	<![CDATA[<head></head><body></body>]]></photo>
+	
+	<photo image="images/103.jpg" colorboxImage="images/103.jpg" colorboxInfo="Item 03" colorboxClass="image" url = "http://www.flashxml.net" target="_blank">
+	<![CDATA[<head></head><body></body>]]></photo>
+	
+	<photo image="images/104.jpg" colorboxImage="images/104.jpg" colorboxInfo="Item 04" colorboxClass="image" url = "http://www.flashxml.net" target="_blank">
+	<![CDATA[<head></head><body></body>]]></photo>
+	
+	<photo image="images/105.jpg" colorboxImage="images/105.jpg" colorboxInfo="Item 05" colorboxClass="image" url = "http://www.flashxml.net" target="_blank">
+	<![CDATA[<head></head><body></body>]]></photo>
+		
+	<photo image="images/106.jpg" colorboxImage="images/106.jpg" colorboxInfo="Item 06" colorboxClass="image" url = "http://www.flashxml.net" target="_blank">
+	<![CDATA[<head></head><body></body>]]></photo>
+	
+	<photo image="images/107.jpg" colorboxImage="images/107.jpg" colorboxInfo="Item 08" colorboxClass="image" url = "http://www.flashxml.net" target="_blank">
+	<![CDATA[<head></head><body></body>]]></photo>
+	
+	<photo image="images/108.jpg" colorboxImage="images/108.jpg" colorboxInfo="Item 09" colorboxClass="image" url = "http://www.flashxml.net" target="_blank">
+	<![CDATA[<head><br/></head>]]></photo>
+	
+	<photo image="images/109.jpg" colorboxImage="images/109.jpg" colorboxInfo="Item 10" colorboxClass="image" url = "http://www.flashxml.net" target="_blank">
+	<![CDATA[<head></head>]]></photo>
+	
+	<photo image="images/110.jpg" colorboxImage="images/110.jpg" colorboxInfo="Item 11" colorboxClass="image" url = "http://www.flashxml.net" target="_blank">
+	<![CDATA[<head></head><body></body>]]></photo>
+	
+	<photo image="images/111.jpg" colorboxImage="images/111.jpg" colorboxInfo="Item 12" colorboxClass="image" url = "http://www.flashxml.net" target="_blank">
+	<![CDATA[<head></head><body></body>]]></photo>
+	
+	<photo image="images/112.jpg" colorboxImage="images/112.jpg" colorboxInfo="Item 13" colorboxClass="image" url = "http://www.flashxml.net" target="_blank">
+	<![CDATA[<head></head><body></body>]]></photo>
+	
+	<photo image="images/113.jpg" colorboxImage="images/113.jpg" colorboxInfo="Item 14" colorboxClass="image" url = "http://www.flashxml.net" target="_blank">
+	<![CDATA[<head></head><body></body>]]></photo>
+	
+	<photo image="images/114.jpg" colorboxImage="images/114.jpg" colorboxInfo="Item 15" colorboxClass="image" url = "http://www.flashxml.net" target="_blank">
+	<![CDATA[<head></head><body></body>]]></photo>
+	
+	<photo image="images/115.jpg" colorboxImage="images/115.jpg" colorboxInfo="Item 16" colorboxClass="image" url = "http://www.flashxml.net" target="_blank">
+	<![CDATA[<head></head><body></body>]]></photo>
+	
+	<photo image="images/116.jpg" colorboxImage="images/116.jpg" colorboxInfo="Item 17" colorboxClass="image" url = "http://www.flashxml.net" target="_blank">
+	<![CDATA[<head> </head><body></body>]]></photo>
+
+</images>
